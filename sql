@@ -1,3 +1,4 @@
+
 SELECT kpi1.day_end,
        CONCAT(ROUND(kpi1.total_payment / total.total_sum * 100, 2), '%') AS percentage_payment_values
 FROM
